@@ -122,5 +122,29 @@ public class ControllerInput : MonoBehaviour {
 			inputValue = "TriggersL_1:\n "+ Input.GetAxis ("TriggersL_1").ToString();
 			textObject.text = inputValue;
 		}
+
+		if (Input.GetButtonDown("TriggerL"))
+		{
+			inputValue = "left trigger";
+			textObject.text = inputValue;
+		}
+
+		if (Input.GetButtonDown("TriggerR"))
+		{
+			inputValue = "right trigger";
+			textObject.text = inputValue;
+		}
+
+		if (Input.GetButtonDown("button 5"))
+		{
+			inputValue = "button 4";
+			textObject.text = inputValue;
+		}
+
+		if (Input.GetButtonDown("button 6"))
+		{
+			inputValue = "button 5";
+			textObject.text = inputValue;
+		}
 	}
 }
