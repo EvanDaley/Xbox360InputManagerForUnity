@@ -14,151 +14,151 @@ public class ControllerInput : MonoBehaviour {
 
 	void Update () 
 	{
-		if (Input.GetButtonDown("button0"))
+		if (InputMapper.GetValue("button0") == 1)
 		{
 			inputValue = "button0";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button1"))
+		if (InputMapper.GetValue("button1") == 1)
 		{
 			inputValue = "button1";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button2"))
+		if (InputMapper.GetValue("button2") == 1)
 		{
 			inputValue = "button2";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button3"))
+		if (InputMapper.GetValue("button3") == 1)
 		{
 			inputValue = "button3";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button4"))
+		if (InputMapper.GetValue("button4") == 1)
 		{
 			inputValue = "button4";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button5"))
+		if (InputMapper.GetValue("button5") == 1)
 		{
 			inputValue = "button5";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button6"))
+		if (InputMapper.GetValue("button6") == 1)
 		{
 			inputValue = "button6";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button7"))
+		if (InputMapper.GetValue("button7") == 1)
 		{
 			inputValue = "button7";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button8"))
+		if (InputMapper.GetValue("button8") == 1)
 		{
 			inputValue = "button8";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button9"))
+		if (InputMapper.GetValue("button9") == 1)
 		{
 			inputValue = "button9";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button10"))
+		if (InputMapper.GetValue("button10") == 1)
 		{
 			inputValue = "button10";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button1"))
+		if (InputMapper.GetValue("button1") == 1)
 		{
 			inputValue = "button1";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button11"))
+		if (InputMapper.GetValue("button11") == 1)
 		{
 			inputValue = "button11";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button12"))
+		if (InputMapper.GetValue("button12") == 1)
 		{
 			inputValue = "button12";
 			textObject.text = inputValue;
 		}
 
-		if (Input.GetButtonDown("button13"))
+		if (InputMapper.GetValue("button13") == 1)
 		{
 			inputValue = "button13";
 			textObject.text = inputValue;
 		}
 
-		if (Mathf.Abs(Input.GetAxis("axis1")) > .2f)
+		if (Mathf.Abs(InputMapper.GetValue("axis1")) > .2f)
 		{
 			inputValue = "axis1:\n "+ Input.GetAxis ("axis1").ToString();
 			textObject.text = inputValue;
 		}
 
-		if (Mathf.Abs(Input.GetAxis("axis2")) > .2f)
+		if (Mathf.Abs(InputMapper.GetValue("axis2")) > .2f)
 		{
 			inputValue = "axis2:\n "+ Input.GetAxis ("axis2").ToString();
 			textObject.text = inputValue;
 		}
 
-		if (Mathf.Abs(Input.GetAxis("axis3")) > .2f)
+		if (Mathf.Abs(InputMapper.GetValue("axis3")) > .2f)
 		{
 			inputValue = "axis3:\n "+ Input.GetAxis ("axis3").ToString();
 			textObject.text = inputValue;
 		}
 
-		if (Mathf.Abs(Input.GetAxis("axis4")) > .2f)
+		if (Mathf.Abs(InputMapper.GetValue("axis4")) > .2f)
 		{
 			inputValue = "axis4:\n "+ Input.GetAxis ("axis4").ToString();
 			textObject.text = inputValue;
 		}
 
-		if (Mathf.Abs(Input.GetAxis("axis5")) > .2f)
+		if (Mathf.Abs(InputMapper.GetValue("axis5")) > .2f)
 		{
 			inputValue = "axis5:\n "+ Input.GetAxis ("axis5").ToString();
 			textObject.text = inputValue;
 		}
 
-		if (Mathf.Abs(Input.GetAxis("axis6")) > .2f)
+		if (Mathf.Abs(InputMapper.GetValue("axis6")) > .2f)
 		{
 			inputValue = "axis6:\n "+ Input.GetAxis ("axis6").ToString();
 			textObject.text = inputValue;
 		}
 
-		if (Mathf.Abs(Input.GetAxis("axis7")) > .2f)
+		if (Mathf.Abs(InputMapper.GetValue("axis7")) > .2f)
 		{
 			inputValue = "axis7:\n "+ Input.GetAxis ("axis7").ToString();
 			textObject.text = inputValue;
 		}
 
-		if (Mathf.Abs(Input.GetAxis("axis8")) > .2f)
+		if (Mathf.Abs(InputMapper.GetValue("axis8")) > .2f)
 		{
 			inputValue = "axis8:\n "+ Input.GetAxis ("axis8").ToString();
 			textObject.text = inputValue;
 		}
 
-		if (Mathf.Abs(Input.GetAxis("axis9")) > .2f)
+		if (Mathf.Abs(InputMapper.GetValue("axis9")) > .2f)
 		{
 			inputValue = "axis9:\n "+ Input.GetAxis ("axis9").ToString();
 			textObject.text = inputValue;
 		}
 
-		if (Mathf.Abs(Input.GetAxis("axis10")) > .2f)
+		if (Mathf.Abs(InputMapper.GetValue("axis10")) > .2f)
 		{
 			inputValue = "axis10:\n "+ Input.GetAxis ("axis10").ToString();
 			textObject.text = inputValue;

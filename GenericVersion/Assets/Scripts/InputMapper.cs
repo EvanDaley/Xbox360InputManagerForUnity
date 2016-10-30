@@ -22,9 +22,9 @@ public class InputMapper : MonoBehaviour {
 	/// </summary>
 	/// <returns>The input value.</returns>
 	/// <param name="button">Button.</param>
-	public static float GetInputValue(string input)
+	public static float GetValue(string input)
 	{
-		return 0;
+		
 	}
 }
 

@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692492, g: 0.4967869, b: 0.57508546, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692558, g: 0.49678743, b: 0.57508624, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -379,10 +379,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1176209070}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f92fa18259de664eb8d0e7be1ef114d, type: 3}
+  m_Script: {fileID: 11500000, guid: 804e3cf131905c3408c73792284f2c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputValue: 506c6561736520636f6e6e65637420636f6e74726f6c6c657220616e6420707265737320627574746f6e
+  inputValue: Please connect controller and press button
   textObject: {fileID: 1595787663}
 --- !u!4 &1176209072
 Transform:
