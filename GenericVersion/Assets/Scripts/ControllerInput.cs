@@ -11,7 +11,7 @@ public class ControllerInput : MonoBehaviour {
 	{
 		textObject.text = inputValue;
 	}
-	
+
 	void Update () 
 	{
 		if (Input.GetButtonDown("button0"))
